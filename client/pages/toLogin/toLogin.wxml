@@ -1,0 +1,9 @@
+<!--pages/toLogin/toLogin.wxml-->
+<view style='width:100%;margin:12px;padding:10px;'>
+<text class='title'>欢迎加入小达摩</text>
+</view>
+
+
+<button open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class="btn">授 权 登 录</button>
+
+

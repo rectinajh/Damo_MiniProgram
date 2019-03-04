@@ -1,0 +1,6 @@
+<view class='title'>Ready Go！</view>
+<view>
+  <button wx:for="{{question_sort}}" class='sort' bindtap='gotoFightingMatch' data-sortid='{{item.id}}'>
+    {{item.sort}}
+  </button>
+</view>
